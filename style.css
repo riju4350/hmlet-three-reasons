@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans JP", sans-serif;
+    text-decoration: none;
+}
+section{
+    background-color: #FFFFFF;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-left: 4rem;
+    height: 100vh;
+}
+.title-section > h3 {
+    font-size: 1.8rem;
+    margin: 4rem 0 2rem 0;
+    color: #251F42;
+}
+ .title-section > div{
+    margin-bottom: 2rem;
+    color: #C87079;
+}
+
+.freedom-section{
+    position: relative;
+}
+.freedom-title{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #F9F6F3;
+    width: 80%;
+    padding: 40px;
+}
+.freedom-title h6{
+    color: #f7674c;
+}
+.freedom-title h3{
+    font-size: 1.8rem;
+    color: #251F42;
+}
+.count{
+ height: 50px;
+ width: 50px;
+ background-color: #F0D8CC;
+ border-radius: 40px;
+ text-align: center;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ font-size: 28px;
+ color:#8A4D58;
+}
+.description p{
+    width: 30rem;
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+    color: #626262;
+    letter-spacing:1px;
+    line-height: 28px;
+}
+.description h4{
+    margin-top: 4rem;
+    color:#8A4D58;
+}
+.freedom-image{
+    width: 40rem;
+    position: absolute;
+    top: 60px;
+    right: 0px;
+}
+.freedom-image > img{
+    width: 100%;
+}
+.check-link{
+    font-weight: 600;
+    color: #274c82;
+    width: 26rem;
+    display: flex;
+    justify-content: end;
+}
+.check-link:hover a{
+    transition: 0.6s;
+    color: #7D94B4;
+}
